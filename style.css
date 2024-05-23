@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222222;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Set styles for table header cells */
+th {
+    padding: 20px 40px;
+    border: 1px solid #cd9760;
+    background-color: #0e1211;
+    color: #fff;
+}
+
+/* Set styles for table body cells */
+td {
+    padding: 20px 40px;
+    border: 1px solid #cd9760;
+    color: #fff;
+}
+
+/* Set styles for buttons inside table cells */
+button {
+    margin: 5px;
+}
