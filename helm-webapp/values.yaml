@@ -9,4 +9,4 @@ configmap:
 
 image:
   name: trangdt25/webvdt
-  tag: latest
+  tag: v1.0
