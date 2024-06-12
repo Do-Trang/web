@@ -30,8 +30,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t trangdt25/web-vdt:${{ env.TAG }} .
-          docker push trangdt25/web-vdt:${{ env.TAG }}
+          docker build -t trangdt25/webvdt:${{ env.TAG }} .
+          docker push trangdt25/webvdt:${{ env.TAG }}
 
       - name: Checkout config repository
         uses: actions/checkout@v3
